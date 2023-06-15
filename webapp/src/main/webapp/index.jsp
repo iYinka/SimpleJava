@@ -37,7 +37,7 @@
   margin-top: 0px;
 ">DevOps Engineer</h5>
     <p style="  text-align: justify;
-">Meet 'Yinka, a skilled DevOps engineer who has recently transitioned from software engineering. 'Yinka brings a strong history in creating and implementing software applications to the table, bringing a unique combination of technical competence and operational efficiency. 'Yinka is able to optimize processes, improve collaboration, and produce high-quality software solutions because of their thorough grasp of the software development life cycle, as well as their mastery of automation, infrastructure management, and continuous integration and deployment. [Your Name] is prepared to make a substantial impact as a DevOps engineer, with a passion for streamlining development workflows and ensuring smooth operations.</p>
+">Meet 'Yinka, a skilled DevOps engineer who has recently transitioned from software engineering. 'Yinka brings a strong history in creating and implementing software applications to the table, bringing a unique combination of technical competence and operational efficiency. 'Yinka is able to optimize processes, improve collaboration, and produce high-quality software solutions because of their thorough grasp of the software development life cycle, as well as their mastery of automation, infrastructure management, and continuous integration and deployment. 'Yinka is prepared to make a substantial impact as a DevOps engineer, with a passion for streamlining development workflows and ensuring smooth operations.</p>
 
   </div>
 </body>
