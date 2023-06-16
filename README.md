@@ -219,14 +219,14 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+<!-- > Mention all of the collaborators of this project. -->
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- GitHub: [@iYinka](https://github.com/iYinka)
+- Twitter: [@yinka_iam](https://twitter.com/yinka_iam)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/olayinka-victor-owolabi-76467871/)
+- Facebook: [Facebook](https://web.facebook.com/OlayinkaV)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -234,11 +234,10 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> In Project2 another tool for deployment will be introduced.
+<!-- > Describe 1 - 3 features you will add to the project. -->
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Ansible**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
