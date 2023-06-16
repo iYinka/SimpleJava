@@ -30,7 +30,7 @@ For more information on the importance of a professional README for your reposit
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="logo.png" alt="logo" width="140"  height="auto" />
+  <img src="project1/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>SimpleJava</b></h3>
