@@ -143,10 +143,10 @@ By establishing a Maven CI/CD DevOps project, development teams may automate bui
 In order to achieve the desired results the project requires understanding of the following:
 *   AWS EC2 instance
 *   Jenkins configuration settings
-    ** Plugins to be installed on Jenkins **
-        * Maven
-        * Deploy to container
-        * Git
+    Plugins to be installed on Jenkins **
+        - [] Maven
+        - [] Deploy to container
+        - [] Git
 *   Tomcat configuration settings
 
 <!--
