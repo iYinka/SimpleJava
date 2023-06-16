@@ -221,7 +221,7 @@ Example:
 
 <!-- > Mention all of the collaborators of this project. -->
 
-👤 **Author**
+👤 **Olayinka Victor Owolabi**
 
 - GitHub: [@iYinka](https://github.com/iYinka)
 - Twitter: [@yinka_iam](https://twitter.com/yinka_iam)
