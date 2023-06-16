@@ -105,7 +105,7 @@ For more information on the importance of a professional README for your reposit
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- **Code commit to Github **
+- **Code commit to Github**
 - **Automated code testing, building and pushing**
 - **Deployment to a running server**
 
