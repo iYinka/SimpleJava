@@ -45,13 +45,12 @@ For more information on the importance of a professional README for your reposit
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
+  - [Tomcat Server](#tomcat-server)
+  - [Jenkins Server](#jenkins-server)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -177,7 +176,7 @@ The following sceenshots contains overview of the project setup:
   <img src="project1/project1_TomcatURL.png" alt="logo" width="70%"  height="auto" />
 
 
-### Jenkins
+### Jenkins Server
 ###### Plugin Sample
 > Maven, Deploy to Container, Git.
   <img src="project1/project1_DeployToContainerPluginForMaven.png" alt="logo" width="70%"  height="auto" />
