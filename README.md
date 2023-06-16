@@ -157,9 +157,14 @@ Example command:
 
 The following sceenshots contains overview of the project setup:
 
-##### Diagram
-> This was done using [draw.io](https://app.diagrams.net/)
+###### Diagram
+> This was done using [draw.io](https://app.diagrams.net/).
   <img src="project1/project1_sketch2.png" alt="logo" width="70%"  height="auto" />
+
+
+###### Cloud Platform
+> [AWS](https://aws.amazon.com/) EC2 instances were created to run the project live.
+  <img src="project1/project1_EC2Instances.png" alt="logo" width="70%"  height="auto" />
 
 <!--
 Example commands:
