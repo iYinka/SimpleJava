@@ -167,55 +167,49 @@ The following sceenshots contains overview of the project setup:
 > [AWS](https://aws.amazon.com/) EC2 instances were created to run the project live.
   <img src="project1/project1_EC2Instances.png" alt="logo" width="70%"  height="auto" />
 
-<!--
-Example commands:
+### Tomcat Server
+###### Tomcat-Users
+> Edit tomcat-users.xml.
+  <img src="project1/project1_tomcat-users.png" alt="logo" width="70%"  height="auto" />
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+###### Tomcat test page
+> [Tomcat-EC2-Instance-PublicIP]/[opened-security-port] e.g 18.224.14.178:9000.
+  <img src="project1/project1_TomcatURL.png" alt="logo" width="70%"  height="auto" />
 
-### Install
 
-Install this project with:
+### Jenkins
+###### Plugin Sample
+> Maven, Deploy to Container, Git.
+  <img src="project1/project1_DeployToContainerPluginForMaven.png" alt="logo" width="70%"  height="auto" />
 
-<!--
-Example command:
+###### Configure
+> The following configuration screenshots are in no particular order:
+*   <img src="project1/project1_CleanInstallPackages.png" alt="logo" width="70%"  height="auto" />
+*   <img src="project1/project1_PostActionBuild.png" alt="logo" width="70%"  height="auto" />
+*   <img src="project1/project1_repoGitBranch.png" alt="logo" width="70%"  height="auto" />
+*   <img src="project1/project1_repoURL.png" alt="logo" width="70%"  height="auto" />
 
-```sh
-  cd my-project
-  gem install
-```
---->
+###### Credentials
+> The Jenkins requires tomcat credentials for managers-script in tomcat-users.xml to login to tomcat server.
+<img src="project1/project1_TomcatJenkins_Credentials.png" alt="logo" width="70%"  height="auto" />
 
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
+###### Successful in Jenkins
+ <img src="project1/project1_SuccessfulDeployment.png" alt="logo" width="70%"  height="auto" />
 
-You can deploy this project using:
+###### Successful deployed/copied artifact into Tomcat
+<img src="project1/project1_DeployedFilesOnTomcat.png" alt="logo" width="70%"  height="auto" />
+
+## Successfully deployed and ran on broswer user tomcat URL
+###### Deployment tested on browser
+> Tested with simple HTML tags
+ <img src="project1/project1_SuccessfulDeploymentInTomcatURL.png" alt="logo" width="70%"  height="auto" />
+
+###### Deployment tested on broser
+> Tested with edited file containing better page layout.
+ <img src="project1/project1_SuccessfulDeploymentInTomcatURLbeta.png" alt="logo" width="70%"  height="auto" />
+
 
 <!--
 Example:
