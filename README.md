@@ -140,9 +140,10 @@ For more information on the importance of a professional README for your reposit
 
 By establishing a Maven CI/CD DevOps project, development teams may automate build, test, and deployment processes, decreasing manual work, enhancing software quality, and increasing development speed.
 ### Prerequisites
-  <img src="project1/project1_sketch2.png" alt="logo" width="100%"  height="auto" />
-
-In order to run this project you need:
+In order to achieve the desired results the project requires understanding of the following:
+*   AWS EC2 instance
+*   Jenkins configuration settings
+*   Tomcat configuration settings
 
 <!--
 Example command:
@@ -154,7 +155,11 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+The following sceenshots contains overview of the project setup:
+
+##### Flowchat
+> This was done using draw.io
+  <img src="project1/project1_sketch2.png" alt="logo" width="70%"  height="auto" />
 
 <!--
 Example commands:
