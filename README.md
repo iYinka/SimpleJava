@@ -157,8 +157,8 @@ Example command:
 
 The following sceenshots contains overview of the project setup:
 
-##### Flowchat
-> This was done using draw.io
+##### Diagram
+> This was done using [draw.io](https://app.diagrams.net/)
   <img src="project1/project1_sketch2.png" alt="logo" width="70%"  height="auto" />
 
 <!--
