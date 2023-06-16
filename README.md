@@ -140,6 +140,7 @@ For more information on the importance of a professional README for your reposit
 
 By establishing a Maven CI/CD DevOps project, development teams may automate build, test, and deployment processes, decreasing manual work, enhancing software quality, and increasing development speed.
 ### Prerequisites
+  <img src="project1/project1_sketch2.png" alt="logo" width="100%"  height="auto" />
 
 In order to run this project you need:
 
