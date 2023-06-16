@@ -144,9 +144,9 @@ In order to achieve the desired results the project requires understanding of th
 *   AWS EC2 instance
 *   Jenkins configuration settings
      > Plugins to be installed on Jenkins
->-       [ ] Maven
->-       [ ] Deploy to container
->-       [ ] Git
+-       [ ] Maven
+-       [ ] Deploy to container
+-       [ ] Git
 *   Tomcat configuration settings
 
 <!--
