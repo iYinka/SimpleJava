@@ -201,12 +201,12 @@ The following sceenshots contains overview of the project setup:
 ###### Successful deployed/copied artifact into Tomcat
 <img src="project1/project1_DeployedFilesOnTomcat.png" alt="logo" width="70%"  height="auto" />
 
-## Successfully deployed and ran on broswer user tomcat URL
+## Successfully deployed and ran on browser using tomcat URL
 ###### Deployment tested on browser
 > Tested with simple HTML tags
  <img src="project1/project1_SuccessfulDeploymentInTomcatURL.png" alt="logo" width="70%"  height="auto" />
 
-###### Deployment tested on broser
+###### Deployment tested on browser
 > Tested with edited file containing better page layout.
  <img src="project1/project1_SuccessfulDeploymentInTomcatURLbeta.png" alt="logo" width="70%"  height="auto" />
 
