@@ -200,7 +200,8 @@ The following sceenshots contains overview of the project setup:
 ###### Successful deployed/copied artifact into Tomcat
 <img src="project1/project1_DeployedFilesOnTomcat.png" alt="logo" width="70%"  height="auto" />
 
-## Successfully deployed and ran on browser using tomcat URL
+## Successfully deployment outcomes
+> The URL of the deployed artifact is that of the Tomcat set in the Jenkins configuration.
 ###### Deployment tested on browser
 > Tested with simple HTML tags
  <img src="project1/project1_SuccessfulDeploymentInTomcatURL.png" alt="logo" width="70%"  height="auto" />
