@@ -172,7 +172,7 @@ The following sceenshots contains overview of the project setup:
   <img src="project1/project1_tomcat-users.png" alt="logo" width="70%"  height="auto" />
 
 ###### Tomcat test page
-> [Tomcat-EC2-Instance-PublicIP]/[opened-security-port] e.g 18.224.14.178:9000.
+> [Tomcat-EC2-Instance-PublicIP]:[opened-security-port] e.g 18.224.14.178:9000.
   <img src="project1/project1_TomcatURL.png" alt="logo" width="70%"  height="auto" />
 
 
