@@ -263,7 +263,7 @@ Example:
 > In Project2 another tool for deployment will be introduced.
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- [ ] **Ansible**
+- [ ] **Docker**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
