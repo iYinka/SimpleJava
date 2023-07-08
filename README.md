@@ -183,7 +183,7 @@ The following sceenshots contains overview of the project setup:
 ### Jenkins Server
 
 ###### Jenkins Public IP address
-> Publish Over SSH, Git.
+> IP address to login to Jenkins server.
   <img src="project2/jenkinsurl.png" alt="logo" width="70%"  height="auto" />
 
 > Publish Over SSH, Git.
