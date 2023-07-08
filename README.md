@@ -260,7 +260,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> In Project2 another tool for deployment will be introduced.
+> In Project3 another tool for deployment will be introduced.
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
 - [ ] **Docker**
