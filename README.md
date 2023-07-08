@@ -85,7 +85,7 @@ For more information on the importance of a professional README for your reposit
   <summary>Tools</summary>
   <ul>
     <li><a href="https://www.jenkins.io/">Jenkins</a></li>
-    <li><a href="https://maven.apache.org/">Maven</a></li>
+    <li><a href="https://www.ansible.com/">Ansible</a></li>
     <li><a href="https://tomcat.apache.org/">Tomcat</a></li>
   </ul>
 </details>
@@ -142,7 +142,7 @@ By establishing a Maven CI/CD DevOps project, development teams may automate bui
 In order to achieve the desired results the project requires understanding of the following:
 *   AWS EC2 instance
 *   Jenkins configuration settings
-     > Plugins to be installed on Jenkins: Maven, Deploy to container, Git
+     > Plugins to be installed on Jenkins: Push Over SSH
 *   Tomcat configuration settings
 
 <!--
@@ -159,17 +159,21 @@ The following sceenshots contains overview of the project setup:
 
 ###### Diagram
 > This was done using [draw.io](https://app.diagrams.net/).
-  <img src="project1/project1_sketch2.png" alt="logo" width="70%"  height="auto" />
+  <img src="project2/sketch1.png" alt="logo" width="70%"  height="auto" />
 
 
 ###### Cloud Platform
 > [AWS](https://aws.amazon.com/) EC2 instances were created to run the project live.
-  <img src="project1/project1_EC2Instances.png" alt="logo" width="70%"  height="auto" />
+  <img src="project2/awsInstances.png" alt="logo" width="70%"  height="auto" />
 
 ### Tomcat Server
 ###### Tomcat-Users
 > Edit tomcat-users.xml.
   <img src="project1/project1_tomcat-users.png" alt="logo" width="70%"  height="auto" />
+
+###### Tomcat-Server
+> Edit tomcat EC2 configuration
+  <img src="project2/tomcat1.png" alt="logo" width="70%"  height="auto" />
 
 ###### Tomcat test page
 > [Tomcat-EC2-Instance-PublicIP]:[opened-security-port] e.g 18.224.14.178:9000.
@@ -177,16 +181,39 @@ The following sceenshots contains overview of the project setup:
 
 
 ### Jenkins Server
-###### Plugin Sample
-> Maven, Deploy to Container, Git.
-  <img src="project1/project1_DeployToContainerPluginForMaven.png" alt="logo" width="70%"  height="auto" />
+
+###### Jenkins Public IP address
+> Publish Over SSH, Git.
+  <img src="project2/jenkinsurl.png" alt="logo" width="70%"  height="auto" />
+
+> Publish Over SSH, Git.
+  <img src="project2/PubSSH.png" alt="logo" width="70%"  height="auto" />
 
 ###### Configure
 > The following configuration screenshots are in no particular order:
-*   <img src="project1/project1_CleanInstallPackages.png" alt="logo" width="70%"  height="auto" />
-*   <img src="project1/project1_PostActionBuild.png" alt="logo" width="70%"  height="auto" />
-*   <img src="project1/project1_repoGitBranch.png" alt="logo" width="70%"  height="auto" />
-*   <img src="project1/project1_repoURL.png" alt="logo" width="70%"  height="auto" />
+*   <img src="project2/config1.png" alt="logo" width="70%"  height="auto" />
+*   <img src="project2/config2.png" alt="logo" width="70%"  height="auto" />
+
+> Manage Jenkins => Configure => Publish Over SSH configuration:
+*   <img src="project2/PubSSH1.png" alt="logo" width="70%"  height="auto" />
+*   <img src="project2/PubSSH2.png" alt="logo" width="70%"  height="auto" />
+*   <img src="project2/PubSSH3.png" alt="logo" width="70%"  height="auto" />
+
+
+### Ansible Server
+
+###### Ansible Private IP address
+> IP address required by the plugin: Publish Over SSH.
+  <img src="project2/ansibleurl.png" alt="logo" width="70%"  height="auto" />
+
+###### Ansible Private IP address
+> Sample of playbook content from Ansible YAML file.
+  <img src="project2/ansibleplaybook.png" alt="logo" width="70%"  height="auto" />
+
+###### Ansible Private IP address
+> Giving root privilege to added user to access ansible file witjout password.
+  <img src="project2/folderprivilege.png" alt="logo" width="70%"  height="auto" />
+
 
 ###### Credentials
 > The Jenkins requires tomcat credentials for managers-script in tomcat-users.xml to login to tomcat server.
@@ -195,20 +222,13 @@ The following sceenshots contains overview of the project setup:
 
 ### Deployment
 ###### Successful in Jenkins
- <img src="project1/project1_SuccessfulDeployment.png" alt="logo" width="70%"  height="auto" />
-
-###### Successful deployed/copied artifact into Tomcat
-<img src="project1/project1_DeployedFilesOnTomcat.png" alt="logo" width="70%"  height="auto" />
+ <img src="project2/jenkinsdashboard.png" alt="logo" width="70%"  height="auto" />
 
 ## Successfully deployment outcomes
-> The URL of the deployed artifact is that of the Tomcat set in the Jenkins configuration.
-###### Deployment tested on browser
-> Tested with simple HTML tags
- <img src="project1/project1_SuccessfulDeploymentInTomcatURL.png" alt="logo" width="70%"  height="auto" />
-
+> The URL of the deployed artifact is the Public IP of Tomcat e.g xx.xxx.xxx.xxx:9000/webapp.
 ###### Deployment tested on browser
 > Tested with edited file containing better page layout.
- <img src="project1/project1_SuccessfulDeploymentInTomcatURLbeta.png" alt="logo" width="70%"  height="auto" />
+<img src="project2/tomcat2.png" alt="logo" width="70%"  height="auto" />
 
 
 <!--
