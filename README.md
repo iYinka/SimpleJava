@@ -51,6 +51,7 @@ For more information on the importance of a professional README for your reposit
   - [Setup](#setup)
   - [Tomcat Server](#tomcat-server)
   - [Jenkins Server](#jenkins-server)
+  - [Ansible Server](#ansible-server)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
