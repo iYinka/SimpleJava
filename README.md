@@ -229,16 +229,10 @@ The following sceenshots contains overview of the project setup:
 ###### Deployment tested on browser
 > Tested with edited file containing better page layout.
 <img src="project3/dockerurl.png" alt="logo" width="70%"  height="auto" />
-<!-- <video width="70%" height="auto" controls>
-  <source src="project3/dockerurl.mp4" type="video/mp4">
-</video> -->
-    <iframe
-      width="560"
-      height="315"
-      src="project3/dockerurl.mp4"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
+<video width="70%" height="auto" controls>
+  <source src="https://github.com/iYinka/SimpleJava/assets/67658890/5352efb4-d15a-4f2c-bd5c-7ecffdd2f52f" type="video/mp4">
+</video>
+
 
 <!--
 Example:
