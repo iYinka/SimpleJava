@@ -85,8 +85,7 @@ For more information on the importance of a professional README for your reposit
   <summary>Tools</summary>
   <ul>
     <li><a href="https://www.jenkins.io/">Jenkins</a></li>
-    <li><a href="https://www.ansible.com/">Ansible</a></li>
-    <li><a href="https://tomcat.apache.org/">Tomcat</a></li>
+    <li><a href="https://www.docker.com/">Docker</a></li>
   </ul>
 </details>
 
@@ -159,78 +158,80 @@ The following sceenshots contains overview of the project setup:
 
 ###### Diagram
 > This was done using [draw.io](https://app.diagrams.net/).
-  <img src="project2/sketch1.png" alt="logo" width="70%"  height="auto" />
+  <img src="project3/diagram.png" alt="logo" width="70%"  height="auto" />
 
 
 ###### Cloud Platform
 > [AWS](https://aws.amazon.com/) EC2 instances were created to run the project live.
-  <img src="project2/awsInstances.png" alt="logo" width="70%"  height="auto" />
+  <img src="project3/awsInstance.png" alt="logo" width="70%"  height="auto" />
 
-### Tomcat Server
-###### Tomcat-Users
-> Edit tomcat-users.xml.
-  <img src="project1/project1_tomcat-users.png" alt="logo" width="70%"  height="auto" />
+<!-- ### Tomcat Server -->
+<!-- ###### Tomcat-Users -->
+<!-- > Edit tomcat-users.xml. -->
+  <!-- <img src="project1/project1_tomcat-users.png" alt="logo" width="70%"  height="auto" /> -->
 
-###### Tomcat-Server
-> Edit tomcat EC2 configuration
-  <img src="project2/tomcat1.png" alt="logo" width="70%"  height="auto" />
+<!-- ###### Tomcat-Server -->
+<!-- > Edit tomcat EC2 configuration -->
+  <!-- <img src="project2/tomcat1.png" alt="logo" width="70%"  height="auto" /> -->
 
-###### Tomcat test page
-> [Tomcat-EC2-Instance-PublicIP]:[opened-security-port] e.g 18.224.14.178:9000.
-  <img src="project1/project1_TomcatURL.png" alt="logo" width="70%"  height="auto" />
+<!-- ###### Tomcat test page -->
+<!-- > [Tomcat-EC2-Instance-PublicIP]:[opened-security-port] e.g 18.224.14.178:9000. -->
+  <!-- <img src="project1/project1_TomcatURL.png" alt="logo" width="70%"  height="auto" /> -->
 
 
 ### Jenkins Server
 
 ###### Jenkins Public IP address
-> IP address to login to Jenkins server.
-  <img src="project2/jenkinsurl.png" alt="logo" width="70%"  height="auto" />
+> Public IP address to login to Jenkins server.
+  <img src="project3/jenkins_pubIP.png" alt="logo" width="70%"  height="auto" />
 
 > Publish Over SSH, Git.
   <img src="project2/PubSSH.png" alt="logo" width="70%"  height="auto" />
 
 ###### Configure
 > The following configuration screenshots are in no particular order:
-*   <img src="project2/config1.png" alt="logo" width="70%"  height="auto" />
-*   <img src="project2/config2.png" alt="logo" width="70%"  height="auto" />
+*   <img src="project3/config1.png" alt="logo" width="70%"  height="auto" />
+*   <img src="project3/config2.png" alt="logo" width="70%"  height="auto" />
 
 > Manage Jenkins => Configure => Publish Over SSH configuration:
-*   <img src="project2/PubSSH1.png" alt="logo" width="70%"  height="auto" />
-*   <img src="project2/PubSSH2.png" alt="logo" width="70%"  height="auto" />
-*   <img src="project2/PubSSH3.png" alt="logo" width="70%"  height="auto" />
+*   <img src="project3/dockerSSH.png" alt="logo" width="70%"  height="auto" />
 
 
-### Ansible Server
+### Docker Server
 
-###### Ansible Private IP address
-> IP address required by the plugin: Publish Over SSH.
-  <img src="project2/ansibleurl.png" alt="logo" width="70%"  height="auto" />
+###### Docker Public & Private IP addresses
+> Private IP address required by the plugin: Publish Over SSH.
+> Public IP address required to access the deployed image.
+  <img src="project2/docker_IPs.png" alt="logo" width="70%"  height="auto" />
 
-###### Ansible Private IP address
-> Sample of playbook content from Ansible YAML file.
-  <img src="project2/ansibleplaybook.png" alt="logo" width="70%"  height="auto" />
+###### Docker terminal
+> 1. Dockerfile and built Java App image.
+> 2. Docker images(Pulled Tomcat and built simple_Java)
+> 3. Docker container
+  <img src="project3/docker_terminal.png" alt="logo" width="70%"  height="auto" />
 
-###### Ansible Private IP address
-> Giving root privilege to added user to access ansible file witjout password.
-  <img src="project2/folderprivilege.png" alt="logo" width="70%"  height="auto" />
+<!-- ###### Ansible Private IP address -->
+<!-- > Giving root privilege to added user to access ansible file witjout password. -->
+  <!-- <img src="project2/folderprivilege.png" alt="logo" width="70%"  height="auto" /> -->
 
 
-###### Credentials
-> The Jenkins requires tomcat credentials for managers-script in tomcat-users.xml to login to tomcat server.
-<img src="project1/project1_TomcatJenkins_Credentials.png" alt="logo" width="70%"  height="auto" />
+<!-- ###### Credentials -->
+<!-- > The Jenkins requires tomcat credentials for managers-script in tomcat-users.xml to login to tomcat server. -->
+<!-- <img src="project1/project1_TomcatJenkins_Credentials.png" alt="logo" width="70%"  height="auto" /> -->
 
 
 ### Deployment
 ###### Successful in Jenkins
- <img src="project2/jenkinsdashboard.png" alt="logo" width="70%"  height="auto" />
+ <img src="project3/project3_success.png" alt="logo" width="70%"  height="auto" />
 
 ## Successfully deployment outcomes
-> The URL of the deployed artifact is the Public IP of Tomcat e.g xx.xxx.xxx.xxx:9000/webapp.
+> The URL to the built image is the Public IP of Docker server and the opened port e.g xx.xxx.xxx.xxx:9090/webapp.
 ###### Deployment tested on browser
 > Tested with edited file containing better page layout.
-<img src="project2/tomcat2.png" alt="logo" width="70%"  height="auto" />
-
-
+<img src="project3/dockerurl.png" alt="logo" width="70%"  height="auto" />
+<video width="70%" height="auto" controls>
+  <source src="project3/dockerurl.mp4" type="video/mp4">
+</video>
 <!--
 Example:
 
