@@ -202,7 +202,7 @@ The following sceenshots contains overview of the project setup:
 ###### Docker Public & Private IP addresses
 > Private IP address required by the plugin: Publish Over SSH.
 > Public IP address required to access the deployed image.
-  <img src="project2/docker_IPs.png" alt="logo" width="70%"  height="auto" />
+  <img src="project3/docker_IPs.png" alt="logo" width="70%"  height="auto" />
 
 ###### Docker terminal
 > 1. Dockerfile and built Java App image.
