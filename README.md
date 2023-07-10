@@ -49,8 +49,8 @@ For more information on the importance of a professional README for your reposit
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-  - [Tomcat Server](#tomcat-server)
   - [Jenkins Server](#jenkins-server)
+  - [Docker Server](#docker-server)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -229,9 +229,17 @@ The following sceenshots contains overview of the project setup:
 ###### Deployment tested on browser
 > Tested with edited file containing better page layout.
 <img src="project3/dockerurl.png" alt="logo" width="70%"  height="auto" />
-<video width="70%" height="auto" controls>
+<!-- <video width="70%" height="auto" controls>
   <source src="project3/dockerurl.mp4" type="video/mp4">
-</video>
+</video> -->
+    <iframe
+      width="560"
+      height="315"
+      src="project3/dockerurl.mp4"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
 <!--
 Example:
 
