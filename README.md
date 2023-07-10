@@ -263,7 +263,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> In Project4 another tool for deployment will be introduced.
+> In Project4, further procedures are implemented.
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
 - [ ] **Ansible**
