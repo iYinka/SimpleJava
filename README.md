@@ -51,6 +51,7 @@ For more information on the importance of a professional README for your reposit
   - [Setup](#setup)
   - [Jenkins Server](#jenkins-server)
   - [Docker Server](#docker-server)
+  - [Ansible Server](#ansible-server)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -86,6 +87,7 @@ For more information on the importance of a professional README for your reposit
   <ul>
     <li><a href="https://www.jenkins.io/">Jenkins</a></li>
     <li><a href="https://www.docker.com/">Docker</a></li>
+    <li><a href="https://www.ansible.com/">Ansible</a></li>
   </ul>
 </details>
 
@@ -142,7 +144,9 @@ In order to achieve the desired results the project requires understanding of th
 *   AWS EC2 instance
 *   Jenkins configuration settings
      > Plugins to be installed on Jenkins: Push Over SSH
-*   Tomcat configuration settings
+*   Docker configuration settings
+*   Ansible configuration settings
+
 
 <!--
 Example command:
@@ -158,7 +162,7 @@ The following sceenshots contains overview of the project setup:
 
 ###### Diagram
 > This was done using [draw.io](https://app.diagrams.net/).
-  <img src="project3/diagram.png" alt="logo" width="70%"  height="auto" />
+  <img src="project4/diagram.png" alt="logo" width="70%"  height="auto" />
 
 
 ###### Cloud Platform
@@ -183,15 +187,18 @@ The following sceenshots contains overview of the project setup:
 
 ###### Jenkins Public IP address
 > Public IP address to login to Jenkins server.
-  <img src="project3/jenkins_pubIP.png" alt="logo" width="70%"  height="auto" />
+  <img src="project4/jenkinsIPs.png" alt="logo" width="70%"  height="auto" />
 
 > Publish Over SSH, Git.
   <img src="project2/PubSSH.png" alt="logo" width="70%"  height="auto" />
 
 ###### Configure
-> The following configuration screenshots are in no particular order:
-*   <img src="project3/config1.png" alt="logo" width="70%"  height="auto" />
-*   <img src="project3/config2.png" alt="logo" width="70%"  height="auto" />
+> Static docker commands:
+*   <img src="project4/docker_commands1.png" alt="logo" width="70%"  height="auto" />
+> Docker commands for versioning:
+*   <img src="project4/docker_commands_updated.png" alt="logo" width="70%"  height="auto" />
+> Ansible playbook:
+*   <img src="project4/ansible_playbook_command.png" alt="logo" width="70%"  height="auto" />
 
 > Manage Jenkins => Configure => Publish Over SSH configuration:
 *   <img src="project3/dockerSSH.png" alt="logo" width="70%"  height="auto" />
@@ -202,33 +209,41 @@ The following sceenshots contains overview of the project setup:
 ###### Docker Public & Private IP addresses
 > Private IP address required by the plugin: Publish Over SSH.
 > Public IP address required to access the deployed image.
-  <img src="project3/docker_IPs.png" alt="logo" width="70%"  height="auto" />
+  <img src="project4/dockerIPs.png" alt="logo" width="70%"  height="auto" />
 
 ###### Docker terminal
-> 1. Dockerfile and built Java App image.
-> 2. Docker images(Pulled Tomcat and built simple_Java)
-> 3. Docker container
-  <img src="project3/docker_terminal.png" alt="logo" width="70%"  height="auto" />
-
-<!-- ###### Ansible Private IP address -->
-<!-- > Giving root privilege to added user to access ansible file witjout password. -->
-  <!-- <img src="project2/folderprivilege.png" alt="logo" width="70%"  height="auto" /> -->
+> Docker images and containers:
+  <img src="project4/docker_images_container.png" alt="logo" width="70%"  height="auto" />
+    <img src="project4/docker_images_container_updated.png" alt="logo" width="70%"  height="auto" />
 
 
-<!-- ###### Credentials -->
-<!-- > The Jenkins requires tomcat credentials for managers-script in tomcat-users.xml to login to tomcat server. -->
-<!-- <img src="project1/project1_TomcatJenkins_Credentials.png" alt="logo" width="70%"  height="auto" /> -->
+###### Ansible IP addresses -->
+> Ansible Private and Public IP addresses.
+<img src="project4/ansibleIPs.png" alt="logo" width="70%"  height="auto" />
+
+
+###### Credentials -->
+> Ansible playbooks in the server:
+<img src="project4/playbook.png" alt="logo" width="70%"  height="auto" />
+<img src="project4/playbook_updated.png" alt="logo" width="70%"  height="auto" />
+<img src="project4/playbook_updated2.png" alt="logo" width="70%"  height="auto" />
+<img src="project4/playbook_terminal.png" alt="logo" width="70%"  height="auto" />
 
 
 ### Deployment
 ###### Successful in Jenkins
- <img src="project3/project3_success.png" alt="logo" width="70%"  height="auto" />
+ <img src="project4/project4.png" alt="logo" width="70%"  height="auto" />
 
 ## Successfully deployment outcomes
 > The URL to the built image is the Public IP of Docker server and the opened port e.g xx.xxx.xxx.xxx:9090/webapp.
 ###### Deployment tested on browser
 > Tested with edited file containing better page layout.
-<img src="project3/dockerurl.png" alt="logo" width="70%"  height="auto" />
+<img src="project4/success.png" alt="logo" width="70%"  height="auto" />
+
+## Image versioning
+<img src="project4/imageversioning1.png" alt="logo" width="70%"  height="auto" />
+<img src="project4/imageversioning2.png" alt="logo" width="70%"  height="auto" />
+<img src="project4/imageversioning3.png" alt="logo" width="70%"  height="auto" />
 
 
 > Short clip of outcome..
