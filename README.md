@@ -142,7 +142,7 @@ In order to achieve the desired results the project requires understanding of th
 *   AWS EC2 instance
 *   Jenkins configuration settings
      > Plugins to be installed on Jenkins: Push Over SSH
-*   Tomcat configuration settings
+*   Docker configuration settings
 
 <!--
 Example command:
@@ -234,6 +234,7 @@ The following sceenshots contains overview of the project setup:
 > Short clip of outcome..
 ![](https://github.com/iYinka/SimpleJava/assets/67658890/5352efb4-d15a-4f2c-bd5c-7ecffdd2f52f)
 
+https://github.com/iYinka/SimpleJava/assets/67658890/5352efb4-d15a-4f2c-bd5c-7ecffdd2f52f
 <!--
 Example:
 
