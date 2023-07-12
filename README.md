@@ -247,8 +247,6 @@ The following sceenshots contains overview of the project setup:
 
 
 > Short clip of outcome..
-![](https://github.com/iYinka/SimpleJava/assets/67658890/5352efb4-d15a-4f2c-bd5c-7ecffdd2f52f)
-
 https://github.com/iYinka/SimpleJava/assets/67658890/bf12def4-3f32-4d9e-9a4e-13f680d2aa79
 
 <!--
@@ -283,7 +281,7 @@ Example:
 > In Project4, further procedures are implemented.
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- [ ] **bernetes**
+- [ ] **Kubernetes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
